@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class StartHere {
-    private static String API_KEY = "AIzaSyBWAaeAmbPVpnBR2X18UftIrORuOxKLAq4"; 
+    private static String API_KEY = ""; // insert API_KEY here
 
     private static databaseManager database;
     private static int databaseSize;

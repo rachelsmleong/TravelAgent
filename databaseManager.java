@@ -21,7 +21,7 @@ public class databaseManager {
     
     public static void main(String args[]) throws IOException {
         databaseManager test = new databaseManager("currentDatabase.txt", 
-                                                   "AIzaSyBWAaeAmbPVpnBR2X18UftIrORuOxKLAq4");
+                                                   ""); // insert API_KEY here
         test.updateDatabase("./src/currentDatabase.txt");
     }
     
